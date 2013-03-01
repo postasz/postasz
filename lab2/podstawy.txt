@@ -1,0 +1,45 @@
+1.System kontroli wersji - jest to oprogramowanie s³u¿¹ce do œledzenia zmian g³ównie w kodzie Ÿród³owym oraz pomocy
+ programistom w ³¹czeniu zmian dokonanych przez wiele osób w ró¿nych momentach.
+ a) Scentralizowany
+ b) Rozproszony – nie jest wymagany 
+- ci¹g³y dostêp do centralnego 
+- repozytorium.
+- Nadaje siê do ma³ych i du¿ych projektów.
+- Œwietnie sprawdza siê te¿ lokalnie.
+2.    Typowy sposób pracy wygl¹da nastêpuj¹co:
+- Pliki tworzymy i modyfikujemy w katalogu roboczym.
+- Jeœli chcemy, by zmiany zosta³y uwzglêdnione, pliki przenosimy do przechowalni.
+- Gdy chcemy zachowaæ bie¿¹cy stan projektu w repozytorium, zatwierdzamy zmiany. 
+Jeœli chcemy, mo¿emy pomin¹æ etap dodawania plików do przechowalni.            
+3.Systemy kontroli wersji dziel¹ siê na:
+- scentralizowane, oparte na architekturze klient-serwer (np. CVS, Subversion)
+- rozproszone, oparte na architekturze P2P (np. BitKeeper, Code Co-op, svk, Git).
+
+W tych pierwszych istnieje jedno centralne repozytorium, z którym wszyscy u¿ytkownicy 
+systemu synchronizuj¹ swoje zmiany, a te drugie pozwalaj¹ na prowadzenie równoprawnych, niezale¿nych ga³êzi, 
+które mo¿na dowolnie synchronizowaæ ze sob¹ nawzajem, np. poprzez e-mail (Code Co-op). Wybór odpowiedniego 
+typu systemu kontroli wersji zale¿y od potrzeb projektu.  
+4.
+git init- tworzenie (zainicjowanie) nowego repozytorium
+git clone- po u¿yciu zostanie pobrana ka¿da rewizja, ka¿dego pliku w historii projektu.(s³u¿y do klonowania 
+ istniej¹cego repozytorium)
+git add- dodaje zmienione pliki do wirtualnej listy, któr¹ za chwile zapiszemy za pomoc¹ polecenia commit
+git status- polecenie wyœwietla aktualny status pracy nad projektem, dziêki niemu zobaczymy, które pliki 
+ by³y modyfikowane, ale nie zosta³y zapisane poleceniem commit, jeœli nie mamy nic nowego, dostaniemy komunikat 
+ nothing to commit, jeœli pliki ulegn¹ zmianie zostanie wyœwietlone odpowiednie podsumowanie.
+git diff- pokazuje które pliki zosta³y zmodyfikowane.
+ (pokazuje, które dok³adnie linie zosta³y dodane, a które usuniête — w postaci ³atki.)
+git commit- zapisanie aktualnego stanu naszego projektu
+git rm- usuwa plik ze zbioru plików œledzonych oraz z katalogu roboczego
+git reset- resetuje zmiany w lokalnym repozytorium
+git branch- jest to dzia³, sekcja, ga³¹Ÿ kodu, nadal znajdujemy siê w obrêbie jednego projektu, 
+ ale mo¿emy rozdzieliæ go na dwie ga³êzie
+git mv- s³u¿y do zmiany nazwy pliku w repozytorium
+git checkout- prze³¹czanie miêdzy róznymi ga³êziami w projekcjie.
+git merge- powrót do pierwotnej ga³êzi, z zapisanymi zmianami.
+git log- s³u¿y do podejrzenia historii zmian w danym projekcie
+git stash- pozwala na od³o¿enie na bok dotychczasowego projektu, poczym dokonujemy zmian, zapisujemy je i 
+ powracamy do od³o¿onego wczeœniej projektu
+git pull- pobiera dane z serwera, na bazie którego oryginalnie stworzyliœmy nasze repozytorium i próbuje 
+ automatycznie scaliæ zmiany z kodem roboczym nad którym aktualnie, lokalnie pracujesz.
+git push- umieszczanie naszej pracy (ga³êzi g³ównej) na zewn¹trz, aby podzieliæ siê ni¹ z innymi.
