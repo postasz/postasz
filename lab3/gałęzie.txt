@@ -1,0 +1,15 @@
+a) Zasady dzia³ania ga³êzi w systemie git
+Zdalne ga³êzie s¹ odnoœnikami do stanu ga³êzi w zdalnym repozytorium. S¹ to lokalne ga³êzie, których nie mo¿na zmieniaæ; s¹ one modyfikowane automatycznie za ka¿dym razem, kiedy wykonujesz jakieœ operacje zdalne. Zdalne ga³êzie zachowuj¹ siê jak zak³adki przypominaj¹ce ci, gdzie znajdowa³y siê ga³êzie w twoim zdalnym repozytorium ostatnim razem, kiedy siê z nim ³¹czy³eœ.
+
+b) Nazywa domyœlnej ga³êzi rozwoju w systemie git
+Domyœlna ga³¹Ÿ rozwoju nosi nazwê "master"
+c) WskaŸnika HEAD
+WskaŸnik HEAD, wskazuje na której ga³êzi aktualnie siê znajdujemy.
+d) Wypisz polecenia git zwi¹zane z ga³êziami i prac¹ na nich
+git branch "nazwa"- tworzy now¹ ga³¹Ÿ
+git branch- wyœwietla listê ga³êzi
+git checkout- s³u¿y do prze³¹czania siê miêdzy ga³êziami
+git merge- tworzy dwie lub wiêcej historii rozwoju
+git branch -v - wyœwietla liste ga³êzi wraz z commitami
+git branch --merged- wyœwietla listê scalonych ga³êzi
+git branch -d - usuwa ga³¹Ÿ
