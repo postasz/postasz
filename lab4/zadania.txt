@@ -1,0 +1,22 @@
+2) Wypisz komendy linii poleceñ umo¿liwiaj¹ce:
+
+wyœwietlenie informacji o poleceniach (pomocy)- help
+wyœwietlanie zawartoœci bie¿¹cego katalogu - cat
+utworzenie katalogu o nazwie 'katalog'- mkdir katalog
+utworzenia pliku o nazwie 'plik.txt'- touch plik.txt
+wyœwietlenie zawartoœci pliku 'plik.txt'- type plik.txt
+przejœcie do katalogu nadrzêdnego- cd ..
+przejœcie do katalogu 'lab4'- cd lab4
+zmianê nazwy pliku 'plik.txt' na 'inny_plik.txt'- rename plik.txt inny_plik.txt
+
+3) Wypróbuj na w³asnym repozytorium oraz podaj komendy gita s³u¿¹c¹ do:
+
+podgl¹du wszystkich zatwierdzonych zmian- git log
+podgl¹du wprowadzonych w repozytorium zmian- git diff
+podgl¹du wprowadzonych zmian plików które s¹ juz w przechowalni- git diff--staged
+podgl¹du zmian wprowadzonych w danym pliku- git status
+usuwania plików z repozytorium- git rm
+dodawanie plików do przechowalni- git add
+usuwanie plików z przechowalni- git reset HEAD <plik>
+przenoszenia plików znajduj¹cych siê w przechowalni do innej ga³êzi-  git stash
+usuwania ga³êzi- git branch -d
