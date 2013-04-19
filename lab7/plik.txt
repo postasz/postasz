@@ -1,0 +1,17 @@
+1. Diagram klas- s³u¿y do zobrazowania wspó³pracy klas. ¯adna klasa nie ¿yje w izolacji – dzia³a w kooperacji z innymi, aby zrealizowaæ dzia³anie niemo¿liwe do wykonania w pojedynkê. 
+- s¹ odmian¹ klasyczn¹ diagramów encja-zwi¹zek (entity-relationship) rozbudowanymi o nowe elementy
+- du¿o oznaczeñ o charakterze pomocniczym (np.: notatki i ograniczenia)
+- rodzajem diagramów klas s¹ diagramy pakietów (package diagrams)
+zastosowanie:
+- zapis modelu pojêciowego: reprezentuj¹ pojêcia w dziedzinie zastosowañ, które aktualnie podlegaj¹ analizie – sformalizowana wizja wyobra¿eñ powstaj¹cych podczas myœlenia nad problemem
+- sformalizowana specyfikacja danych i metod: dotyczy opisu zewnêtrznego oprogramowania bez szczegó³ów implementacyjnych
+- implementacja: mo¿e bezpoœrednio s³u¿yæ jako graficzny œrodek pokazuj¹cy szczegó³y implementacji
+
+2.Zwi¹zki :
+a) asocjacji: Asocjacja wskazuje na trwa³e powi¹zanie pomiêdzy obiektami danych klas (np. firma zatrudnia pracowników, piekarnia piecze wypieki). Na diagramie asocjacjê oznacza siê za pomoc¹ linii zakoñczonej strza³k¹ (skierowan¹ od klasy Ÿród³owej do docelowej). Nazwê cechy wraz z krotnoœci¹ umieszcza siê w punkcie docelowym asocjacji.
+
+b) agregacji: Agregacja reprezentuje zwi¹zek typu ca³oœæ-czêœæ. Wystêpuje tutaj relacja posiadania — co oznacza, ¿e elementy czêœciowe mog¹ nale¿eæ do wiêkszej ca³oœci, jednak równie¿ mog¹ istnieæ bez niej. Na diagramie agregacjê oznacza siê za pomoc¹ linii zakoñczonej pustym rombem.(np. samochód jest agregatem swoich czêœci, emeryt jest "czêœci¹" pracownika")
+
+c) kompozycji: Kompozycja, zwana równie¿ z³o¿eniem, jest zwi¹zkiem typu ca³oœæ-czêœæ. W relacji kompozycji, czêœci nale¿¹ tylko do jednej ca³oœci, a ich okres ¿ycia jest wspólny — razem z ca³oœci¹ niszczone s¹ równie¿ czêœci. Na diagramie, kompozycjê oznacza siê za pomoc¹ linii zakoñczonej wype³nionym rombem. (np. ka¿dy punkt nale¿y do wieloboku lub okrêgu, pozycja zamówienia zalezy od zamówienia)
+
+d) generalizacji (dziedziczenia): Generalizacja – zwi¹zek opisuj¹cy dziedziczenie po klasach. Na diagramie generalizacjê oznacza siê za pomoc¹ niewype³nionego trójk¹ta symbolizuj¹cego strza³kê (skierowan¹ od klasy pochodnej do klasy bazowej).Budowa pojêæ bardziej ogólnych, gdy mamy bardziej szczegó³owe. (np. samochód osobowy nale¿y do pojazdów drogowych, pojazdy drogowe nale¿¹ do œrodkó transportu)
