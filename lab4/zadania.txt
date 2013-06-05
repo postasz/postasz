@@ -1,0 +1,19 @@
+wyœwietla informacje o pomocy- help
+wyœwietlenie zawartoœci bie¿¹cego katalogu- dir
+utworzenie katalogu o nazwie katalog- md/ mkdir <nazwa>
+utworzenie pliku o nazwie "plik.txt"- touch <nazwa pliku>
+wyœwietlenie zawartoœci pliku "plik.txt"- type
+przejœcie do katalogu nadrzêdnego-cd..
+przejœcie do katalogu "lab4"- cd <nazwa katalogu>, cd lab4
+zmiana nazwy pliku "plik.txt" na inny_plik.txt"- ren/ rename <nazwa pliku><nowa nazwa>
+
+KOMENDY GIT
+podgl¹d wszystkich zatwierdzonych zmian- git log
+podgl¹d wprowadzonych w repozytprium zmian- git diff
+podgl¹d wprowadzonych zmian plików które s¹ ju¿ w przechowalni-git diff--staged
+podgl¹d zmian wprowadzonych w danym pliku-git status
+usuwanie plików z repozytorium-git rm
+dodawanie plików do przechowalni-git add
+usuwanie plików z przechowalni-git reset head
+przenoszenie plików znajduj¹cych siê w przechowalni do innej ga³êzi-git stash
+usuwanie ga³êzi- git branch-d
